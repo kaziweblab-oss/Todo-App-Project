@@ -1,0 +1,10 @@
+.containeer {
+  background-color: rgb(87, 88, 100);
+  box-sizing: border-box;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
