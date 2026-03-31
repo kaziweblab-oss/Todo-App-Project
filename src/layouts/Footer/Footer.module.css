@@ -1,0 +1,63 @@
+.footerSection {
+  box-sizing: border-box;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  background-color: #201f20;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.navIconsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navIcon {
+  font-size: 2rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.home,
+.phone,
+.facebook,
+.messenger {
+  color: blue;
+}
+
+.whatsApp,
+.fiverr {
+  color: green;
+}
+
+.instagram {
+  color: #ff08ff;
+}
+.youtube {
+  color: red;
+}
+
+.navIcon:hover {
+  color: #666666;
+}
+
+@media screen and (min-width: 720px) {
+  .navIconsSection {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navIcons {
+    flex: 1;
+  }
+}

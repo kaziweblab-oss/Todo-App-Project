@@ -1,0 +1,62 @@
+.section {
+  border: 2px solid rebeccapurple;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  margin: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  font-size: 2rem;
+  cursor: pointer;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.span {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.desc {
+  font-size: 1.5rem;
+  width: 100%;
+  color: rgb(18, 11, 29);
+  margin: auto 0;
+}
+
+.btn {
+  background-color: orangered;
+  border: none;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px red;
+}
